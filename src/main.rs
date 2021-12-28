@@ -78,7 +78,7 @@ fn main() {
 fn match_extension(file: &DirEntry, extensions: clap::Values) -> bool {
     for ext in extensions {
         if let Some(e) = file.path().extension() {
-            if e == ext {
+            if e.eq_ignore_ascii_case(ext) {
                 return true;
             };
         }
