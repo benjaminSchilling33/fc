@@ -1,3 +1,7 @@
+#  fc Cargo.toml
+#  SPDX-License-Identifier: MIT
+#  Copyright (C) 2021 Benjamin Schilling
+
 [package]
 name = "fc"
 version = "0.1.0"

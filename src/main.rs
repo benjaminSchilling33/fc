@@ -1,11 +1,18 @@
-use std::ffi::OsString;
-use std::path::Path;
+/*
+*  fc main
+*  SPDX-License-Identifier: MIT
+*  Copyright (C) 2021 Benjamin Schilling
+*/
+
 // Rust Standard Library
+use std::ffi::OsString;
 use std::fs;
 use std::fs::DirEntry;
+use std::path::Path;
 // CLI
 extern crate clap;
 use clap::{App, Arg};
+
 fn main() {
     let matches = App::new("fc")
         .version("0.1.0")

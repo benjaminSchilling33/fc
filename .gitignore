@@ -1,1 +1,5 @@
+#  gitignore
+#  SPDX-License-Identifier: MIT
+#  Copyright (C) 2021 Benjamin Schilling
+
 /target

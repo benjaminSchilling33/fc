@@ -20,3 +20,11 @@ OPTIONS:
     -e, --extension <extensions>...    File extension in scope for clean-up.
     -p, --path <path>                  Path to the directory for clean up.
 ```
+
+# License
+
+SPDX-License-Identifier: MIT
+
+# Copyright
+
+Copyright (C) 2021 Benjamin Schilling
