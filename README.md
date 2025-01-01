@@ -2,9 +2,9 @@
 
 Deletes all individual files based on their file extension.
 
-E.g. in a directory with many *.orf and *.jpg files all files that exist in either *.orf or *.jpg format are deleted.
+E.g. in a directory with many `*.orf` and `*.jpg` files all files that exist in either `*.orf` or `*.jpg` format are deleted.
 
-This is useful when cleaning up photos by only going through all photos with one file extension, e.g. *.jpg, while deleting all unwanted ones and afterwards removing all corresponding RAW files as well.
+This is useful when cleaning up photos by only going through all photos with one file extension, e.g. `*.jpg`, while deleting all unwanted ones and afterwards removing all corresponding RAW files as well.
 
 ```bash
 fc 0.2
@@ -21,10 +21,19 @@ OPTIONS:
     -p, --path <path>                  Path to the directory for clean up.
 ```
 
+Call example:
+```
+fc -e TXT MD -p ./dir_with_files
+```
+
 # License
 
 SPDX-License-Identifier: MIT
 
 # Copyright
 
+<<<<<<< HEAD
 Copyright (C) 2021 - 2025 Benjamin Schilling
+=======
+Copyright (C) 2021 Benjamin Schilling
+>>>>>>> 4d77f04741d0f36cd79b47a60981c618e2696f6b
