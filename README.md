@@ -7,12 +7,15 @@ E.g. in a directory with many `*.orf` and `*.jpg` files all files that exist in 
 This is useful when cleaning up photos by only going through all photos with one file extension, e.g. `*.jpg`, while deleting all unwanted ones and afterwards removing all corresponding RAW files as well.
 
 ```bash
-fc 0.2
+fc 0.2.0
 Benjamin Schilling <benjamin.schilling33@gmail.com>
+Among all files with the given file extensions, remove individual files.
+
 USAGE:
-    fc.exe --extension <extensions>... --path <path>
+    fc.exe [FLAGS] --extension <extensions>... --path <path>
 
 FLAGS:
+    -c               Immediately confirm deletion.
     -h, --help       Prints help information
     -V, --version    Prints version information
 
@@ -32,8 +35,4 @@ SPDX-License-Identifier: MIT
 
 # Copyright
 
-<<<<<<< HEAD
 Copyright (C) 2021 - 2025 Benjamin Schilling
-=======
-Copyright (C) 2021 Benjamin Schilling
->>>>>>> 4d77f04741d0f36cd79b47a60981c618e2696f6b
