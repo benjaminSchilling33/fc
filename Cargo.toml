@@ -1,10 +1,10 @@
 #  fc Cargo.toml
 #  SPDX-License-Identifier: MIT
-#  Copyright (C) 2021 Benjamin Schilling
+#  Copyright (C) 2021 - 2025 Benjamin Schilling
 
 [package]
 name = "fc"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

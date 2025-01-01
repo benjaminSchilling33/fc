@@ -3,3 +3,4 @@
 #  Copyright (C) 2021 Benjamin Schilling
 
 /target
+*.exe
